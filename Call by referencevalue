@@ -1,0 +1,15 @@
+let arr = [2,4,6,8]
+
+let arrcopy = []
+for(let i=0;i<arr.length;i++){
+    arrcopy.push(arr[i])
+}
+arr[1]=78
+console.log(arr)
+console.log(arrcopy)
+
+let a =98
+let b=a
+a=67
+console.log(a)
+console.log(b)
